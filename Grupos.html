@@ -8,67 +8,125 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <style>
+        .navbar{
+            background-color: #020F2A;
+            font-size: 17px;
+            padding: 8px 20px;   
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: bold;
+            font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+        }
+        .group-text{
+            font-family: "Poppins 500","Noto Sans Regular","Helvetica Neue",Arial,sans-serif;
+            font-size: 17px;
+            padding: 10px 10px;
+            border-radius: 10px;
+            border: solid;
+            background-color: aliceblue;
+            text-align: center;
+        }
+        .group-container{
+           margin-top: 50px;
+            margin-left: 0px;
+            margin-right: 200px;
+            height: 100px;
+        }
+        .group-box{
+            margin: 10%;
+            float: right;
+            width: 1px;
+            padding: 10px 10px;
+            background-color: white;
+            border: black 1px solid;
+            border-radius: 15px;
+        }
+        .group-background{
+            margin: 0px;
+            padding: 10px;
+            height: 600px;
+            background-image: url('derdpng-64c36ae5-2194-49dd-ac0b-c449ff4f0d14.jpg');
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <div>
-        CONOCER A LOS GRUPOS FINALES
-        <a href="Home.html">Inicio</a>
-        <a href="Partidos.html">Partidos</a>
-        <a href="Estadios.html">Estadios</a>
+        <div class="navbar">
+            <a href="Home.html">INICIO</a>
+            <a style="color: lightblue;">GRUPOS</a>
+            <a href="Partidos.html">PARTIDOS</a>
+            <a href="Estadios.html">ESTADIOS</a>
+        </div>
         <br>
-        <table>
-            <tr> 
-            <th>Grupo A</th>
-            <th>Grupo B</th>
-            <th>Grupo C</th>
-            <th>Grupo D</th>
-            <th>Grupo E</th>
-            <th>Grupo F</th>
-            <th>Grupo G</th>
-            <th>Grupo H</th>
+        <div class="group-background">
+            <div class="group-container">
+                <div>
+                    <table class="group-box">
+                        <tr class="group-text"> 
+                        <th>Grupo A</th>
+                        <th>Grupo B</th>
+                        <th>Grupo C</th>
+                        <th>Grupo D</th>
+                        <th>Grupo E</th>
+                        <th>Grupo F</th>
+                        <th>Grupo G</th>
+                        <th>Grupo H</th>
 
-            </tr>
-            <tr>
-                <td>Catar</td>
-                <td>Inglaterra</td>
-                <td>Argentina</td>
-                <td>Francia</td>
-                <td>España</td>
-                <td>Belgica</td>
-                <td>Brasil</td>
-                <td>Portugal</td>
-            </tr>
-            <tr>
-                <td>Ecuador</td>
-                <td>Iran</td>
-                <td>Arabia Saudita</td>
-                <td>Australia</td>
-                <td>Costa Rica</td>
-                <td>Canadá</td>
-                <td>Serbia</td>
-                <td>Ghana</td>
-            </tr>
-            <tr>
-                <td>Senegal</td>
-                <td>Estados Unidos</td>
-                <td>Méjico</td>
-                <td>Dinamarca</td>
-                <td>Alemania</td>
-                <td>Marruecos</td>
-                <td>Suiza</td>
-                <td>Uruguay</td>
-            </tr>
-            <tr>
-                <td>Holanda</td>
-                <td>Gales</td>
-                <td>Polonia</td>
-                <td>Túnez</td>
-                <td>Japón</td>
-                <td>Croacia</td>
-                <td>Camerún</td>
-                <td>Corea del Sur</td>
-            </tr>
-        </table>
+                        </tr>
+                        <tr class="group-text">
+                            <td>Catar</td>
+                            <td>Inglaterra</td>
+                            <td>Argentina</td>
+                            <td>Francia</td>
+                            <td>España</td>
+                            <td>Belgica</td>
+                            <td>Brasil</td>
+                            <td>Portugal</td>
+                        </tr>
+                        <tr class="group-text">
+                            <td>Ecuador</td>
+                            <td>Iran</td>
+                            <td>Arabia Saudita</td>
+                            <td>Australia</td>
+                            <td>Costa Rica</td>
+                            <td>Canadá</td>
+                            <td>Serbia</td>
+                            <td>Ghana</td>
+                        </tr>
+                        <tr class="group-text">
+                            <td>Senegal</td>
+                            <td>Estados Unidos</td>
+                            <td>Méjico</td>
+                            <td>Dinamarca</td>
+                            <td>Alemania</td>
+                            <td>Marruecos</td>
+                            <td>Suiza</td>
+                            <td>Uruguay</td>
+                        </tr>
+                        <tr class="group-text">
+                            <td>Holanda</td>
+                            <td>Gales</td>
+                            <td>Polonia</td>
+                            <td>Túnez</td>
+                            <td>Japón</td>
+                            <td>Croacia</td>
+                            <td>Camerún</td>
+                            <td>Corea del Sur</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
+    
 </body>
 </html>
